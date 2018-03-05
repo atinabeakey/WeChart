@@ -1,0 +1,7 @@
+<!--pages/chart/chart.wxml-->
+<view class="chart-content">
+  <view class='chart-name' wx:for='{{charts}}' wx:for-item='chart' wx:key="{{chart.type}}">
+    <image src='../../img/{{chart.type}}.png' bindtap='openChart' data-chart='{{chart}}'></image>
+    <view>{{chart.name}}</view>
+  </view>
+</view>

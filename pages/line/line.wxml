@@ -1,0 +1,4 @@
+<!--pages/line/line.wxml-->
+<view class='chart-contioner'>
+    <ec-canvas class='chart' id="line-chart" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>  
+</view>
